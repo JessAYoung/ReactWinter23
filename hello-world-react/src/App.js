@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Button from '@mui/material/Button';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Hello World I am doing this right!
+          <Button variant="contained">I am Button</Button> 
         </p>
         <a
           className="App-link"
